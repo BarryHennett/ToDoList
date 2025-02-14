@@ -1,0 +1,90 @@
+# Ignore build results and intermediate files
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.exe
+*.dll
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.swp
+*.dbmdl
+*.log
+
+# Rider IDE files
+.idea/
+*.iml
+
+# Visual Studio files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.pidb
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.icloud
+
+# Windows files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Auto-generated configuration and resources
+*.appx
+*.appxbundle
+*.appxupload
+*.appxsym
+*.msix
+*.msixbundle
+*.msixupload
+*.msixsym
+
+# XAML auto-generated files
+*.g.cs
+*.g.i.cs
+
+# MAUI auto-generated files
+**/*.cssc
+**/*.cssproj
+**/*.nupkg
+
+# Application output folders
+AppPackages/
+BundleArtifacts/
+
+# Auto-generated Xamarin/MAUI resource files
+Resources/Resource.designer.cs
+*.designer.cs
+*.AssemblyInfo.cs
+
+# Temporary and cache files
+*.cache
+*.temp
+*.tmp
+*.bak
+*.orig
+*.old
+*.lock
+
+# NuGet package files
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node.js (if applicable)
+node_modules/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# Ignore logs and debug traces
+*.tlog
+*.log
+logs/
