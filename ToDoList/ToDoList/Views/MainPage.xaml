@@ -6,7 +6,7 @@
     <StackLayout Padding="20">
         <Label Text="Harrys Todo List" FontSize="Header" HorizontalOptions="Center" Margin="0,10,0,20"/>
 
-        <ListView x:Name="TodoListView" Margin="0,0,0,20" ItemsSource="{Binding TodoItem}">
+        <ListView x:Name="TodoListView" Margin="0,0,0,20" ItemsSource="{Binding TodoItems}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <!-- how each items displayed-->

@@ -20,8 +20,8 @@ namespace ToDoList.ViewModels
         }
         public async Task LoadTodoItemsAsync()
         {
-            var todo = await _todoService.GetTodos();
-            foreach (var item in todo)
+            var todoItems = await _todoService.GetTodos();
+            foreach (var item in todoItems)
             {
                 TodoItems.Add(item);
             }
